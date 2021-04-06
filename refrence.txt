@@ -1,0 +1,33 @@
+api url = https://reqres.in/
+
+Toast npm = https://www.npmjs.com/package/react-native-fast-toast
+
+npm i react-native-fast-toast
+
+toast.show("Task finished successfully", {
+  duration: 5000,
+  style: { padding: 0 },
+  textStyle: { fontSize: 20 },
+});
+
+<Toast 
+  duration={5000} 
+  textStyle={{ fontSize: 20 }}
+  successColor="green"
+  dangerColor="red"
+  warningColor="orange"
+/>
+
+tast type: Normal, Success, Danger and Warning toasts;
+
+Feature :- 
+        Normal, Success, Danger and Warning toasts
+        Customizable and Icon support
+        Smooth animation
+        Fully typed with TypeScript 
+
+React vector icon directory : - https://oblador.github.io/react-native-vector-icons/
+
+npm i @expo/vector-icons
+
+link :- https://www.npmjs.com/package/@expo/vector-icons
