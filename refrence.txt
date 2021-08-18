@@ -4,6 +4,18 @@ React Native basic setup steps:-
 3) JAVA_HOME :- C:\Program Files (x86)\Java\jdk1.8.0_301
 4) npm i react-native-cli
 
+React Native android clean
+1) reamove node module 
+2) npm start -- --reset-cac
+3) cache clean --force
+4) watchman watch-del-all
+5) cd android
+6) ./gradlew clean
+
+Android Build Generat :-
+1) cd android
+2) ./gradlew assembleRelease
+
 api url = https://reqres.in/
 
 Toast npm = https://www.npmjs.com/package/react-native-fast-toast
