@@ -16,6 +16,9 @@ Android Build Generat :-
 1) cd android
 2) ./gradlew assembleRelease
 
+Android Build Generat Reference :-
+ https://www.instamobile.io/android-development/generate-react-native-release-build-android/
+
 api url = https://reqres.in/
 
 Toast npm = https://www.npmjs.com/package/react-native-fast-toast
